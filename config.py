@@ -1,6 +1,6 @@
 main_token = '6892367357:AAEu4uHQxbL9dHAVbh3IOV2PxSHg59-RKaA'
 
-monitor_token = ''
+monitor_token = '6892367357:AAEu4uHQxbL9dHAVbh3IOV2PxSHg59-RKaA'
 
 segmind_api_key = "SG_56a7c33fd3364fa2"
 
