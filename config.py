@@ -1,7 +1,7 @@
-main_token = 'main_bot_token'
+main_token = '6892367357:AAEu4uHQxbL9dHAVbh3IOV2PxSHg59-RKaA'
 
-monitor_token = 'monitor_bot_token'
+monitor_token = '8913340'
 
-segmind_api_key = "Your_api_key"
+segmind_api_key = "SG_56a7c33fd3364fa2"
 
-chat_id = "your_chat_id" 
+chat_id = "1768602211" 
