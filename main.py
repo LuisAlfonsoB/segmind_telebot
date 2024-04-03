@@ -53,7 +53,7 @@ def generate_image(message):
                 "img_height": 768,
                 "base64": False
             }
-            api_url = "https://api.segmind.com/v1/sdxl1.0-newreality-lightning"
+            api_url = "https://api.segmind.com/v1/sdxl1.0-dreamshaper-lightning"
             headers = {
                 "x-api-key": segmind_api_key,
                 "Content-Type": "application/json"
