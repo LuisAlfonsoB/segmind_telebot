@@ -45,7 +45,7 @@ def generate_image(message):
                 "prompt": user_prompt,
                 "negative_prompt": "((close up)),(octane render, render, drawing, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
                 "scheduler": "DPM++ SDE",
-                "num_inference_steps": 7,
+                "num_inference_steps": 25,
                 "guidance_scale": 7,
                 "samples": 1,
                 "seed": random_seed,
