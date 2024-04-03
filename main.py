@@ -43,10 +43,10 @@ def generate_image(message):
             user_prompt = ' '.join(message.text.split()[1:])
             payload = {
                 "prompt": user_prompt,
-                "negative_prompt": "(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art)++++, (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name)+, (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur)++, (3D ,3D Game, 3D Game Scene, 3D Character), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities)++",
-                "scheduler": "dpmpp_2m",
-                "num_inference_steps": 25,
-                "guidance_scale": 5,
+                "negative_prompt": "((close up)),(octane render, render, drawing, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
+                "scheduler": "DPM++ SDE",
+                "num_inference_steps": 7,
+                "guidance_scale": 7,
                 "samples": 1,
                 "seed": random_seed,
                 "img_width": 512,
