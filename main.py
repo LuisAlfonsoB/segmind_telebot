@@ -49,8 +49,8 @@ def generate_image(message):
                 "guidance_scale": 1,
                 "samples": 1,
                 "seed": random_seed,
-                "img_width": 1024,
-                "img_height": 1024,
+                "img_width": 512,
+                "img_height": 768,
                 "base64": False
             }
             api_url = "https://api.segmind.com/v1/sdxl1.0-dreamshaper-lightning"
