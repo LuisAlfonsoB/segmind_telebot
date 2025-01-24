@@ -44,16 +44,16 @@ def generate_image(message):
             payload = {
                 "prompt": user_prompt,
                 "negative_prompt": "((close up)),(octane render, render, drawing, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
-                "scheduler": "DPM++ SDE",
-                "num_inference_steps": 10,
-                "guidance_scale": 1,
+                "scheduler": "DPM++ 2M SDE Karras",
+                "num_inference_steps": 25,
+                "guidance_scale": 7,
                 "samples": 1,
                 "seed": random_seed,
-                "img_width": 512,
-                "img_height": 768,
+                "img_width": 768,
+                "img_height": 1152,
                 "base64": False
             }
-            api_url = "https://api.segmind.com/v1/sdxl1.0-dreamshaper-lightning"
+            api_url = "https://api.segmind.com/v1/sdxl1.0-realdream-pony-v9"
             headers = {
                 "x-api-key": segmind_api_key,
                 "Content-Type": "application/json"
