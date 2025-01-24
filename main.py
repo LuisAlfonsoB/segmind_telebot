@@ -47,7 +47,7 @@ def generate_image(message):
                 "scheduler": "DPM++ 2M SDE Karras",
                 "num_inference_steps": 25,
                 "guidance_scale": 7,
-                "samples": 1,
+                "samples": 4,
                 "seed": random_seed,
                 "img_width": 768,
                 "img_height": 1152,
